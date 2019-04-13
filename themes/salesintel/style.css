@@ -1,0 +1,533 @@
+/*
+Theme Name: Sales Intel Report
+Author: AWM
+Version: 1.0
+Description: This is the default theme for Sales Intel Report.
+*/
+body, html {
+   height:95%;
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+}
+
+.nivo-caption{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+h1.postthumb{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+
+
+h1.postmain{
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 900px;
+}
+
+h1.postmain{
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 900px;
+}
+
+h1.pagemain{
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 900px;
+}
+
+
+h3.focuspicks{
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+.membersonly{
+  font-weight: bold;
+  color: #cc0000;
+}
+
+.maxheight{
+
+  background-color: pink;
+}
+
+.top-feather-icons{
+  width: 35px;
+  height: 95%;
+  color: white;
+
+}
+
+.top-search-icon{
+  width: 45px;
+  height: 95%;
+  color: white;
+  margin-bottom: 4px;
+  margin-left: -10px;
+}
+
+.small_logo_main{
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.welcome_user{
+  width: 100%;
+  text-align: center;
+}
+
+
+.textlink{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+#top_post{
+  display: none;
+    margin-top: 20px;
+}
+
+#toplogo{
+  width: 100%;
+  background-color: #cc0000;
+  text-align: left;
+  padding: 15px;
+}
+
+
+  .hrsmallshow{
+    display: none;
+  }
+
+/* do when small */
+@media only screen and (max-width: 767px) {
+
+
+
+  .centric{
+    text-align: center;
+  }
+
+  .hrbigshow{
+    display: none;
+  }
+  .hrsmallshow{
+    display: block;
+  }
+}
+
+#sir_logo{
+  display: inline-block;
+  width: 70px;
+
+}
+
+#sir_text{
+  display: block;
+}
+
+
+#slider_container{
+  background-color: black;
+
+  margin: 0px 20px 0px 20px;
+}
+
+#slider_image{
+  width: 75%;
+}
+
+#slider_text{
+  background-color: white;
+  margin-bottom: 40px;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+
+}
+
+#slidermargins{
+    margin: 0px 25px 0px 25px;
+
+}
+
+
+
+#article_container{
+  background-color: black;
+
+  display: flex;
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+#articlemargins{
+    margin: 0px 25px 40px 25px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+#article_text{
+  background-color: white;
+  height: 90%;
+  width: 25%;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#article_main{
+  width: 75%;
+  background-color: white;
+  margin-bottom: 40px;
+  padding: 35px 20px 20px 90px;
+
+}
+
+.article_thumb_div{
+  width: 100%;
+}
+
+.article_thumb{
+  width: 100%;
+  max-width: 400px;
+}
+
+#article_bottom{
+  display: none;
+}
+
+#articlemargins_footer{
+  margin: 0px 20px 25px 45px;
+
+}
+
+#navbar{
+	position: relative;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding:10px;
+  height: 45px;
+	z-index: 99;
+}
+
+#hamburgers{
+  visibility: hidden;
+  position: absolute;
+  font-size: 40px;
+  right: 20px;
+  top: 12px;
+  bottom: 47px;
+  cursor: pointer;
+  z-index: 100;
+  color: white;
+}
+
+
+#smallsearch{
+  display: none;
+}
+
+
+a.menulink:link{
+  color: white;
+}
+
+a.menulink:visited{
+  color: white;
+}
+
+a.menulink:hover{
+  color: #cc0000;
+}
+a.menulink:active{
+  color: #cc0000;
+}
+
+/* do when medium*/
+@media only screen and (max-width: 992px) {
+  a.menulink:hover{
+    color: black;
+  }
+  a.menulink:active{
+    color: black;
+  }
+
+  #navbar{
+    height: 65px;
+  }
+
+  #navelements{
+    display: none;
+  }
+
+  #smallsearch{
+
+    position: absolute;
+    left: 20px;
+    display: block;
+  }
+
+
+  #hamburgers{
+    visibility: visible;
+    display: block;
+  }
+
+  #top_post{
+    display: flex;
+  }
+
+  #article_container{
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  #article_bottom{
+
+    display: block;
+    width: 100%;
+  }
+
+  #article_main{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  #article_text{
+    display:none;
+  }
+
+  #articlemargins{
+      margin: 0px 0px 20px 0px;
+      display: flex;
+      width: 100%;
+      background-color: white;
+
+  }
+
+  .centric{
+    text-align: center;
+  }
+  .right-side{
+    display:none;
+  }
+  .logomain{
+    width: 100%;
+    text-align: center;
+  }
+
+  #slider_container{
+    margin: 0px;
+    width: 100%;
+  }
+  #slider_text{
+    display: none;
+  }
+  #slider_image{
+    width: 100%;
+  }
+
+  #slidermargins{
+      margin: 0px 0px 0px 0px;
+  }
+
+}
+
+.page-numbers{
+  font-weight: bold;
+}
+
+
+a.page-numbers:link{
+  color: black;
+}
+
+a.page-numbers:visited{
+  color: #cc0000;
+}
+
+a.page-numbers:hover{
+  color: #cc0000;
+}
+a.page-numbers:active{
+  color: #cc0000;
+}
+
+
+a.mainlink:link{
+  color: black;
+}
+
+a.mainlink:visited{
+  color: black;
+}
+
+a.mainlink:hover{
+  color: #cc0000;
+}
+a.mainlink:active{
+  color: #cc0000;
+}
+
+
+a.sublink:link{
+  color: #cc0000;
+}
+
+a.sublink:visited{
+  color: #cc0000;
+}
+
+a.sublink:hover{
+  color: black;
+}
+a.sublink:active{
+  color: black;
+}
+
+.post_thumb{
+  width: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.custom_container{
+  margin-top: 0px;
+  min-height: 90%;
+}
+
+.latest_intel{
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+#terms{
+  font-family: sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+#bottom{
+  padding-bottom: 20px;
+}
+
+.the_content{
+
+  margin-top: 15px;
+  max-width: 800px;
+}
+
+.authorname{
+  color: #cc0000;
+}
+
+.next_prev_img{
+  width: 75%;
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.standard_page{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.about_logo{
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.p_content{
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.lefter{
+  text-align: left;
+}
+
+q { quotes: '\201c' '\201d'; }
+q:before { content: open-quote; }
+q:after  { content: close-quote; }
+
+.quoteme{
+  padding: 10px;
+  color: #aaa;
+  font-size: 1.8em;
+}
+
+#footermain{
+  background-color:#cc0000;
+}
+
+
+.menusep{
+  padding: 0px 15px 0px 15px;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+
+.level_one{
+  background-color: #ccc;
+}
+.level_two{
+  background-color: #333;
+  color: white;
+}
+.level_three{
+  background-color: #cc0000;
+  color: white;
+}
+
+
+.input-lg {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 0px;
+	box-shadow: none;
+	height: 40px;
+	line-height: 15px;
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: white;
+	max-width: 190px;
+
+}
+
+.submitter { border:none; background-color: rgba(255,255,255,0);}
